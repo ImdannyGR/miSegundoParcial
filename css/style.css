@@ -1,0 +1,59 @@
+ /* Contenedor de los botones en fila */
+ .modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+  }
+
+  /* Estilo Modal 1: verde */
+  #myModal .modal-content {
+    background-color: #d4edda; /* verde claro */
+    border: 2px solid #28a745;
+  }
+
+  #myModal .modal-header, 
+  #myModal .modal-body {
+    color: #155724;
+  }
+
+  /* Estilo Modal 2: amarillo */
+  #myModal2 .modal-content {
+    background-color: #fff3cd; /* amarillo claro */
+    border: 2px solid #ffc107;
+  }
+
+  #myModal2 .modal-header, 
+  #myModal2 .modal-body {
+    color: #856404;
+  }
+
+  .btn-mas-sobre {
+    background-color: #ff6600; /* Cambia este valor por el color que desees */
+    border: none;
+    color: white;
+  }
+
+  .btn-mas-sobre:hover {
+    background-color: #e65c00; /* Color al pasar el mouse */
+    color: white;
+  }
+
+  
+.container{
+    width: 80%;
+    margin: auto; /* Centrar */
+    overflow: hidden;
+}
+
+footer{
+    background-color: gray;
+    color: blue;
+    padding: 10px;
+    
+    
+}
+
+footer p{
+    text-align: center;
+}
